@@ -1,0 +1,17 @@
+DirectoryIndex index.php
+RewriteEngine On
+
+# Ensure HTTPS redirection
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?http://127.0.0.1:5500/
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Allow POST requests for PHP files
+<FilesMatch "\.php$">
+    <IfModule mod_rewrite.c>
+        RewriteCond %{REQUEST_METHOD} POST
+        RewriteRule ^ - [L]
+    </IfModule>
+</FilesMatch>
+
+Options +MultiViews
