@@ -10,7 +10,7 @@ header("Access-Control-Allow-Headers: Content-Type");
 // $message = $_POST['message'];
 
 $from = "no-reply@kindercab.in";
-$to = "policepushparaj96@gmail.com";
+$to = "lachu.sekar95@gmail.com";
 $subject = "Contact Form ";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 
