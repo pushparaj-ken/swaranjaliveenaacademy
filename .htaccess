@@ -1,9 +1,9 @@
 DirectoryIndex index.php
+
 RewriteEngine On
 
 # Ensure HTTPS redirection
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} (www\.)?swaranjaliveenaacademy-production.up.railway.app
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Allow POST requests for PHP files

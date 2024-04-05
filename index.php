@@ -14,9 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -36,8 +34,7 @@
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -47,9 +44,8 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-            <a href="index.html" class="navbar-brand  ms-auto">
-                <img src="img/Swaranjali_Logo.png" alt="Swaranjali Veena Academy" class="img-fluid"
-                    style="height:150px;">
+            <a href="index.php" class="navbar-brand  ms-auto">
+                <img src="img/Swaranjali_Logo.png" alt="Swaranjali Veena Academy" class="img-fluid" style="height:150px;">
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -73,8 +69,7 @@
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
                     <img class="img-fluid" src="img/Veenacar1.jpg" alt="">
-                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                        style="background: rgba(0, 0, 0, .2);">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-10 col-lg-8">
@@ -83,11 +78,9 @@
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">Experience the rich tradition and
                                         soulful melodies of Veena music. Our classes offer a unique blend of tradition
                                         and innovation.</p>
-                                    <a href="about-us"
-                                        class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Learn
+                                    <a href="about-us" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Learn
                                         More</a>
-                                    <a href="#contact-us"
-                                        class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll
+                                    <a href="#contact-us" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll
                                         Now</a>
                                 </div>
                             </div>
@@ -96,8 +89,7 @@
                 </div>
                 <div class="owl-carousel-item position-relative">
                     <img class="img-fluid" src="img/veenacar2.png" alt="">
-                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                        style="background: rgba(0, 0, 0, .2);">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-10 col-lg-8">
@@ -106,11 +98,9 @@
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">Join our Veena music classes to hone
                                         your skills and explore the depth of classical Indian music. Start your musical
                                         journey with us.</p>
-                                    <a href="#about-us"
-                                        class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 anabout-usimated slideInLeft">Learn
+                                    <a href="#about-us" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 anabout-usimated slideInLeft">Learn
                                         More</a>
-                                    <a href="#contact-us"
-                                        class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll
+                                    <a href="#contact-us" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll
                                         Now</a>
                                 </div>
                             </div>
@@ -209,8 +199,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-circle flex-shrink-0" src="img/Lakshmi.jpg" alt=""
-                                        style="width: 45px; height: 45px;">
+                                    <img class="rounded-circle flex-shrink-0" src="img/Lakshmi.jpg" alt="" style="width: 45px; height: 45px;">
                                     <div class="ms-3">
                                         <h6 class="text-primary mb-1">Veena Vidwan Family - Lakshmi Chandrasekar</h6>
                                         <small>CEO & Founder</small>
@@ -253,8 +242,7 @@
                                 <p class="mb-4">Embark on a musical journey with Veena and unlock the beauty of
                                     classical Indian melodies. Dive into the rich heritage of Veena music.
                                 </p>
-                                <a class="btn btn-primary py-3 px-5" href="#contact-us">Start Learning Now<i
-                                        class="fa fa-arrow-right ms-2"></i></a>
+                                <a class="btn btn-primary py-3 px-5" href="#contact-us">Start Learning Now<i class="fa fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -266,18 +254,20 @@
 
         <!-- Classes Start -->
         <div class="container-xxl py-5" id="classes">
-            <div class="container text-center"> <!-- Added 'text-center' class here -->
-                <div class="row justify-content-center"> <!-- Added 'justify-content-center' class to center the row -->
+            <div class="container text-center">
+                <!-- Added 'text-center' class here -->
+                <div class="row justify-content-center">
+                    <!-- Added 'justify-content-center' class to center the row -->
                     <div class="col-lg-6">
-                        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
-                            style="max-width: 600px;">
+                        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                             <h1 class="mb-3">Veena Music Classes</h1>
                             <p>Explore our Veena music classes and delve into the soulful melodies of this ancient
                                 Indian instrument. Learn from experienced teachers in a supportive environment.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center"> <!-- Added 'justify-content-center' class to center the row -->
+                <div class="row justify-content-center">
+                    <!-- Added 'justify-content-center' class to center the row -->
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
@@ -288,8 +278,7 @@
                                     Veena</a>
                                 <div class="d-flex align-items-center justify-content-between mb-4">
                                     <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="img/Lakshmi.jpg" alt=""
-                                            style="width: 45px; height: 45px;">
+                                        <img class="rounded-circle flex-shrink-0" src="img/Lakshmi.jpg" alt="" style="width: 45px; height: 45px;">
                                         <div class="ms-3">
                                             <h6 class="text-primary mb-1">Veena Instructor</h6>
                                             <small>Ms. Lakshmi Chandrasekar</small>
@@ -336,43 +325,35 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
                                 <h1 class="mb-4">Make Appointment</h1>
-                                <form role="form" action="#" this_id="form-001" class="contact-form" method="post"
-                                    reload-action="true">
+                                <form role="form" action="#" this_id="form-001" class="contact-form" method="post" reload-action="true">
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" name="gname" class="form-control border-0 required"
-                                                    id="gname" placeholder="Gurdian Name">
+                                                <input type="text" name="gname" class="form-control border-0 required" id="gname" placeholder="Gurdian Name">
                                                 <label for="gname">Guardian Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="number" class="form-control border-0 required"
-                                                    name="gphonenumber" id="gphonenumber"
-                                                    placeholder="Gurdian Phonenumber">
+                                                <input type="number" class="form-control border-0 required" name="gphonenumber" id="gphonenumber" placeholder="Gurdian Phonenumber">
                                                 <label for="gmail">Guardian Phone number</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0 required" name="cname"
-                                                    id="cname" placeholder="Child Name">
+                                                <input type="text" class="form-control border-0 required" name="cname" id="cname" placeholder="Child Name">
                                                 <label for="cname">Child Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0 required" name="cage"
-                                                    id="cage" placeholder="Child Age">
+                                                <input type="text" class="form-control border-0 required" name="cage" id="cage" placeholder="Child Age">
                                                 <label for="cage">Child Age</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control border-0 required"
-                                                    placeholder="Leave a message here" name="message" id="message"
-                                                    style="height: 100px"></textarea>
+                                                <textarea class="form-control border-0 required" placeholder="Leave a message here" name="message" id="message" style="height: 100px"></textarea>
                                                 <label for="message">Message</label>
                                             </div>
                                         </div>
@@ -385,8 +366,7 @@
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                             <div class="position-relative h-100">
-                                <img class="position-absolute w-100 h-100 rounded" src="img/appointment.jpg"
-                                    style="object-fit: cover;">
+                                <img class="position-absolute w-100 h-100 rounded" src="img/appointment.jpg" style="object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -496,10 +476,8 @@
                         <h3 class="text-white mb-4">Veena Newsletter</h3>
                         <p>Stay updated with the latest news, events, and offers from Swaranjali Veena Academy.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>

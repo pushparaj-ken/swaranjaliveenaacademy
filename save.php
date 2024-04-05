@@ -4,10 +4,10 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone_number = $_POST['phone_number'];
-$message = $_POST['message'];
+// $name = $_POST['name'];
+// $email = $_POST['email'];
+// $phone_number = $_POST['phone_number'];
+// $message = $_POST['message'];
 
 $from = "no-reply@kindercab.in";
 $to = "policepushparaj96@gmail.com";
