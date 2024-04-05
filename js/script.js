@@ -2,7 +2,7 @@
 $('.contact-form').submit(function (e) {
   e.preventDefault();
   $.ajax({
-    type: 'GET',
+    type: 'POST',
     url: "save.php",
     data: new FormData(this),
     dataType: "json",
