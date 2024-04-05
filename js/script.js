@@ -54,13 +54,13 @@ function is_required(this_id) {
   $('.error-span').hide();
   var inc = 0;
   $(this_id + " .required").each(function () {
-    console.log($(this).attr('name'));
+    //console.log($(this).attr('name'));
     if ($(this).val() !== "undefined") {
       if ($(this).val() != null) {
         if (($(this).val()).length > 0) {
 
         } else {
-          console.log($(this).attr('name'));
+          //console.log($(this).attr('name'));
           $(this).next("span").show();
           inc++;
         }

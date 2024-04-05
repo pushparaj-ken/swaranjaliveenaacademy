@@ -16,8 +16,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-$headers .= "From: " . $from . "\r\n" .
-  "CC: " . $cc;
+$headers .= "From: " . $from . "\r\n";
 
 $msg = "Gurdian Name:" . $_POST['gname'] . "<br>   Gurdian Phonenumber: " . $_POST['gphonenumber'] . "<br> Child Name: " . $_POST['cname'] . "<br>   Child Age: " . $_POST['cage'] . "<br> Message: " . $_POST['message'];
 
