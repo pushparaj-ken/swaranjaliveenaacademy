@@ -21,7 +21,7 @@ $('body').on("submit", '.contact-form', function (e) {
           $(this_id)[0].reset();
           toastr.success('Success!');
           $(this_id + ' button[type=submit]').removeAttr('disabled');
-
+          setTimeout(function () { location.reload(); }, 1000);
           if ($(this_id).attr('reload-action') === 'true') {
             setTimeout(function () { location.reload(); }, 1000);
           }

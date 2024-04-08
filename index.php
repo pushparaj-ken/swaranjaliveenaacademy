@@ -215,7 +215,7 @@
                     <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/veena3.PNG" alt="">
+                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/veena3.png" alt="">
                             </div>
                             <div class="col-6 text-start" style="margin-top: -150px;">
                                 <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/veena1.jpeg" alt="">
@@ -463,7 +463,7 @@
                                 <img class="img-fluid rounded bg-light p-1" src="img/veena4.jpeg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/veena3.PNG" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img/veena3.png" alt="">
                             </div>
                             <div class="col-4">
                                 <img class="img-fluid rounded bg-light p-1" src="img/veena5.png" alt="">
