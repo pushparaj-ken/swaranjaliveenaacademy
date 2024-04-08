@@ -19,21 +19,21 @@ $('body').on("submit", '.contact-form', function (e) {
         console.log(response)
         if (response.result == 1) {
           $(this_id)[0].reset();
-          alert('Success!');
+          toastr.success('Success!');
           $(this_id + ' button[type=submit]').removeAttr('disabled');
 
           if ($(this_id).attr('reload-action') === 'true') {
             setTimeout(function () { location.reload(); }, 1000);
           }
         } else {
-          alert('Something went wrong! Please try again later!');
+          toastr.error('Something went wrong! Please try again later!');
           $(this_id + ' input[type=submit]').removeAttr('disabled');
           $(this_id + ' button[type=submit]').removeAttr('disabled');
         }
       }
     });
   } else {
-    alert('Please check the required fields!');
+    toastr.error('Please check the required fields!');
   }
 
 });
