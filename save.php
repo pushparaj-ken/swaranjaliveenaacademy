@@ -23,6 +23,7 @@ if (mail($to, $subject, $msg, $headers)) {
   $data['result'] = 1;
 } else {
   $data['result'] = 0;
+  echo "Mail delivery failed: " . error_get_last()['message'];
 }
 
 echo json_encode($data);
