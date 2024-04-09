@@ -329,40 +329,27 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
                                 <h1 class="mb-4">Make Appointment</h1>
-                                <form role="form" action="#" this_id="form-001" class="contact-form" method="post" reload-action="true">
+                                <form>
                                     <div class="row g-3">
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" name="gname" class="form-control border-0 required" id="gname" placeholder="Gurdian Name">
-                                                <label for="gname">Guardian Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="number" class="form-control border-0 required" name="gphonenumber" id="gphonenumber" placeholder="Gurdian Phonenumber">
-                                                <label for="gmail">Guardian Phone number</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0 required" name="cname" id="cname" placeholder="Child Name">
-                                                <label for="cname">Child Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0 required" name="cage" id="cage" placeholder="Child Age">
-                                                <label for="cage">Child Age</label>
-                                            </div>
-                                        </div>
+                                        <p>
+                                            The Veena is an ancient and classical Indian musical instrument that has been cherished for
+                                            centuries. Its melodious tones and rich history make it a symbol of traditional Indian music and
+                                            culture. The Veena's graceful design and intricate craftsmanship reflect the beauty and elegance
+                                            of Indian musical heritage.</p>
+
+                                        <p> At our Veena academy, we are dedicated to preserving and promoting the art of Veena playing. Our
+                                            experienced instructors provide personalized lessons tailored to each student's skill level,
+                                            whether you're a beginner or an advanced player. We offer comprehensive training in Veena
+                                            techniques, ragas, compositions, and performance skills, helping students develop a deep
+                                            understanding and mastery of this beautiful instrument.</p>
+
+                                        <p> Join us on a musical journey filled with learning, exploration, and artistic expression.
+                                            Discover the timeless beauty of the Veena and experience the joy of creating soulful melodies that
+                                            resonate with the heart and soul.
+                                        </p>
                                         <div class="col-12">
-                                            <div class="form-floating">
-                                                <textarea class="form-control border-0 required" placeholder="Leave a message here" name="message" id="message" style="height: 100px"></textarea>
-                                                <label for="message">Message</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                            <a class="btn btn-success w-100 py-3" target="_blank" href="https://api.whatsapp.com/send?phone=+919003267442&text=Hello%2C%20I%20would%20like%20to%20schedule%20an%20appointment%20for%20Veena%20lessons.%0A%0AName%3A%20%5BReplace%20with%20name%5D%0APhone%3A%20%5BReplace%20with%20phone%20number%5D%0ADate%3A%20%5BReplace%20with%20date%5D%0ATime%3A%20%5BReplace%20with%20time%5D%0AAdditional%20Comments%3A%20%5BReplace%20with%20comments%5D">Connect
+                                                with Whatsapp</a>
                                         </div>
                                     </div>
                                 </form>
@@ -480,8 +467,8 @@
                         <h3 class="text-white mb-4">Veena Newsletter</h3>
                         <p>Stay updated with the latest news, events, and offers from Swaranjali Veena Academy.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            <a class="btn btn-success w-100 py-2 position-absolute top-0 end-0 mt-2 me-2" target="_blank" href="https://api.whatsapp.com/send?phone=+919003267442&text=Hello%2C%20I%20would%20like%20to%20schedule%20an%20appointment%20for%20Veena%20lessons.%0A%0AName%3A%20%5BReplace%20with%20name%5D%0APhone%3A%20%5BReplace%20with%20phone%20number%5D%0ADate%3A%20%5BReplace%20with%20date%5D%0ATime%3A%20%5BReplace%20with%20time%5D%0AAdditional%20Comments%3A%20%5BReplace%20with%20comments%5D">Connect
+                                with Whatsapp</a>
                         </div>
                     </div>
                 </div>
